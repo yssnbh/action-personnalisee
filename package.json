@@ -1,0 +1,24 @@
+{
+  "name": "action-personnalisee",
+  "version": "1.0.0",
+  "description": "For Prof TP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yssnbh/action-personnalisee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yssnbh/action-personnalisee/issues"
+  },
+  "homepage": "https://github.com/yssnbh/action-personnalisee#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.0"
+  }
+}
