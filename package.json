@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/yssnbh/action-personnalisee#readme",
   "dependencies": {
-    "@actions/core": "^3.0.0"
+    "@actions/core": "^1.0.0"
   }
 }
