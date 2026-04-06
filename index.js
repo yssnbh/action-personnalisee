@@ -1,4 +1,4 @@
-const core = require("@actions/core");
+import * as core from "@actions/core";
 
 try {
   const nom = core.getInput("nom");
@@ -18,7 +18,7 @@ try {
       message = `Bonjour, ${nom} !`;
   }
 
-  console.log(message);
+  core.info(message);
 } catch (error) {
   core.setFailed(error.message);
 }
